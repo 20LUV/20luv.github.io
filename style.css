@@ -1,0 +1,34 @@
+.case-card {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 30px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.case-card img {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #eaeaea;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.case-card ul {
+  margin-top: 10px;
+  padding-left: 18px;
+}
+
+.case-card li {
+  margin-bottom: 6px;
+}
+
+@media (max-width: 768px) {
+  .case-card {
+    grid-template-columns: 1fr;
+  }
+}
