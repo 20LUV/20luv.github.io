@@ -1,15 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #ffffff;
+  color: #222;
+  line-height: 1.6;
+}
+
+.hero {
+  text-align: center;
+  padding: 90px 20px;
+  background: #f6f6f6;
+}
+
+.hero h1 {
+  font-size: 42px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #666;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 26px;
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.section {
+  max-width: 1000px;
+  margin: 70px auto;
+  padding: 0 20px;
+}
+
+.section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.skills li {
+  list-style: none;
+  background: #ededed;
+  padding: 8px 14px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.card {
+  border: 1px solid #e6e6e6;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.card span {
+  font-size: 13px;
+  color: #777;
+}
+
 .case-card {
   display: grid;
   grid-template-columns: 1fr 1.2fr;
   gap: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
   align-items: center;
 }
 
 .case-card img {
   width: 100%;
   border-radius: 10px;
-  border: 1px solid #eaeaea;
+  border: 1px solid #ddd;
 }
 
 .subtitle {
@@ -18,13 +93,15 @@
   margin-bottom: 10px;
 }
 
-.case-card ul {
-  margin-top: 10px;
-  padding-left: 18px;
+.contact p {
+  margin-bottom: 8px;
 }
 
-.case-card li {
-  margin-bottom: 6px;
+footer {
+  text-align: center;
+  padding: 30px;
+  background: #f6f6f6;
+  color: #777;
 }
 
 @media (max-width: 768px) {
